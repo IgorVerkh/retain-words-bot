@@ -7,7 +7,7 @@ import java.util.Timer
 
 
 object MyBotConfig {
-    const val API_TOKEN = "1985045002:AAGzuOu8v21_HOgLhZcTDkqZNapxeF1zxHk"
+    const val API_TOKEN = ""
 }
 
 fun main() {
