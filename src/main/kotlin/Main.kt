@@ -7,7 +7,7 @@ import java.util.Timer
 
 
 object MyBotConfig {
-    const val API_TOKEN = ""
+    val API_TOKEN: String = System.getenv("API_TOKEN")?: error("No api token was passed")
 }
 
 fun main() {
