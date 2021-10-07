@@ -5,13 +5,13 @@ import commands.*
 import org.litote.kmongo.KMongo
 import java.util.Timer
 
-
 object MyBotConfig {
     val API_TOKEN: String = System.getenv("API_TOKEN")?: error("No api token was passed")
+    val DATABASE_URI: String = System.getenv("DATABASE_URI") ?: error("No database address was passed")
 }
 
 fun main() {
-    val dbClient = KMongo.createClient()
+    val dbClient = KMongo.createClient(MyBotConfig.DATABASE_URI)
     val database = dbClient.getDatabase(DBConfig.DB_NAME)
     val timer = Timer()
     val bot = bot {
