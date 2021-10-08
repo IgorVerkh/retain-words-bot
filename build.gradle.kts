@@ -30,3 +30,7 @@ tasks.withType<KotlinCompile>() {
 application {
     mainClass.set("MainKt")
 }
+
+tasks.create("stage") {
+    dependsOn("installDist")
+}
