@@ -1,1 +1,1 @@
-web: ./build/install/retain-words-bot
+web: ./build/install/reminderBot/bin/reminderBot
