@@ -1,1 +1,1 @@
-web: ./build/install/shrouded-tor-04936/bin/shrouded-tor-04936
+web: ./build/install/retain-words-bot/bin/retain-words-bot
