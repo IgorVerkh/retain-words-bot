@@ -3,7 +3,6 @@ import com.github.kotlintelegrambot.dispatch
 import com.github.kotlintelegrambot.dispatcher.command
 import commands.*
 import org.litote.kmongo.KMongo
-import java.net.ServerSocket
 import java.util.Timer
 
 object MyBotConfig {
@@ -13,7 +12,6 @@ object MyBotConfig {
 }
 
 fun main() {
-    val server = ServerSocket(MyBotConfig.PORT)
     val dbClient = KMongo.createClient(MyBotConfig.DATABASE_URI)
     val database = dbClient.getDatabase(DBConfig.DB_NAME)
     val timer = Timer()
