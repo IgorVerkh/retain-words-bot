@@ -1,1 +1,1 @@
-web: ./build/install/reminderBot/bin/reminderBot
+web: ./build/install/shrouded-tor-04936/bin/shrouded-tor-04936
