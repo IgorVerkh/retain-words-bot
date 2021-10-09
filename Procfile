@@ -1,1 +1,1 @@
-web: ./build/install/retainBot
+web: ./build/install/retain-words-bot
