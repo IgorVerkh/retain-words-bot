@@ -1,1 +1,1 @@
-worker: ./build/install/reminderBot/bin/reminderBot
+web: ./build/install/reminderBot/bin/reminderBot
