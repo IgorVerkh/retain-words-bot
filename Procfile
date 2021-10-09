@@ -1,1 +1,1 @@
-web: java -jar build/libs/reminderBot-1.0-SNAPSHOT.jar
+web: ./build/install/reminderBot/bin/reminderBot
