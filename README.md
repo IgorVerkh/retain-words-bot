@@ -1,5 +1,6 @@
 # retain-words-bot
 Telegram bot written in Kotlin
+https://en.wikipedia.org/wiki/Forgetting_curve
 @retain_words_bot
 
 Used to remind you text data.
